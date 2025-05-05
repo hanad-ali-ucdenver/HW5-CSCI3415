@@ -14,11 +14,10 @@ The TinyMart Product Catalog System is an object-oriented JavaScript application
 ## Requirements
 
 - Node.js (v12.0.0 or later)
-- Text editor or IDE of your choice (VSCode recommended)
 
 ## Build and Run Instructions
 
-### Option 1: Running with Node.js
+### Running with Node.js
 
 1. Clone or download this repository to your local machine
 2. Navigate to the project directory in your terminal
@@ -28,40 +27,11 @@ The TinyMart Product Catalog System is an object-oriented JavaScript application
 node tinymart.js
 ```
 
-### Option 2: Running in a browser
-
-1. Clone or download this repository to your local machine
-2. Create a simple HTML file (index.html) with the following content:
-
-```html
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TinyMart Product Catalog</title>
-</head>
-<body>
-    <h1>TinyMart Product Catalog</h1>
-    <p>Open the browser console (F12) to see the output.</p>
-    
-    <script src="tinymart.js"></script>
-</body>
-</html>
+To save the terminal output to a file, you can alternatively run this command
+```bash
+node tinymart.js > output.txt
 ```
 
-3. Open the HTML file in a modern web browser
-4. Check the browser console (F12) to see the output
-
-## Project Structure
-
-```
-tinymart/
-│
-├── tinymart.js         # Main application file with all classes and implementation
-├── index.html          # Optional HTML file for browser-based execution
-└── README.md           # This file
-```
 
 ## Usage Example
 
@@ -105,7 +75,3 @@ The system includes a built-in test suite in the `main()` function. It tests:
 - Displaying cart contents
 
 Run the application as described above to execute these tests.
-
-## License
-
-This project is available for educational purposes.
